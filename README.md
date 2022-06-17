@@ -10,6 +10,22 @@ A sample application that creates a Twilio dashboard to display data from Twilio
 * `data/app.d/`: The Deephaven application mode directory
 * `data/layouts/layout.json`: The IDE layout file
 
+## Environmental variables
+
+The following environmental variables need to be set to run the app.
+
+```
+TWILIO_AUTH_TOKEN
+TWILIO_ACCOUNT_SID
+```
+
+An easy way to do this is to put it in a `.env` file in the project.
+
+```
+TWILIO_AUTH_TOKEN=""
+TWILIO_ACCOUNT_SID=""
+```
+
 ## Launch
 
 Simply run
