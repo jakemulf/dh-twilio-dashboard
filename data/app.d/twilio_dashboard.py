@@ -9,6 +9,8 @@ from deephaven import empty_table
 from deephaven.time import to_datetime
 from deephaven.plot.figure import Figure
 
+import os
+
 def message_to_datetime(message):
     message_dt_string = message.date_sent.strftime("%Y-%m-%dT%H:%M:%S UTC")
     return to_datetime(message_dt_string)
