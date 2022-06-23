@@ -8,6 +8,8 @@ A sample application that creates a Twilio dashboard to display data from Twilio
 * `docker-compose.yml`: The docker-compose file that defines the local Dockerfile build, the Deephaven application mode directory, and the environmental variables
 * `requirements.txt`: The Python dependencies for the project
 * `data/app.d/`: The Deephaven application mode directory
+  * `data/app.d/app.app`: The Deephaven application mode config file
+  * `data/app.d/twilio_dashboard.py`: The Python script that pulls data from Twilio and creates the Deephaven plots
 * `data/layouts/layout.json`: The IDE layout file
 
 ## Environmental variables
